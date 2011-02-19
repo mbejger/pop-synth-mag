@@ -1,0 +1,12 @@
+sl_rot.res                       ! EoS
+hc.tab                           ! input file with the values of hc
+binit.tab                        ! input file with the initial values of B
+test.dat                         ! output file
+0.001                            ! initial frequency
+465.                             ! maxmimum frequency
+0.01                             ! drel0 : maximum step in the accreted mass            
+10.                              ! mdot11
+1.                               ! xl
+3                                ! flag for the magnetic field evolution : 1 -> Shibazaki, Murakami, 2 -> (Shibazaki, Murakami)**-2, 3 -> Cheng Zhang
+1.d-4                            ! mbpar  - m_b in eq (1) of Shibazaki, Murakami ... Nature 342, 656
+0.01                             ! mcrust -> Cheng & Zhang 2000
